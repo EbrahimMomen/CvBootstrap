@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(../images/135\ Slick\ Carbon.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+    width: 80%;
+    position: relative;
+    margin: 50px auto;
+    height: 700px;overflow: hidden;
+
+}
+
+.content{
+    position: absolute; transform: translateX(100%);
+    transition: .4s;
+    
+}
+
+
+#home{
+   transform: translateX(0px);
+}
+
+.btn-box .container{
+    border-bottom:3px solid white;
+}
+.btn-box button{
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 14pt;
+    
+    
+}
